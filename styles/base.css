@@ -21,19 +21,19 @@ body {
   margin-right: auto;
 }
 
-.mask {
+/* .mask {
   width: 350px;
   height: auto;
   position: relative;
   overflow: hidden;
-  margin: 0 auto; /* Center the mask container horizontally */
+  margin: 0 auto;
   -webkit-mask-image: url("/images/paint.png");
-  /* mask-image: url("/images/paint.png"); */
+  mask-image: url("/images/paint.png");
   -webkit-mask-size: auto 100%;
-  /* mask-size: auto 100%; */
+  mask-size: auto 100%;
   -webkit-mask-repeat: no-repeat;
-  /* mask-repeat: no-repeat; */
-}
+  mask-repeat: no-repeat;
+} */
 
 .mask .rickyvang {
   width: 100%;
