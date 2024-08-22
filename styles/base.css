@@ -21,28 +21,28 @@ body {
   margin-right: auto;
 }
 
-/* .mask {
+.mask {
   width: 350px;
   height: auto;
   position: relative;
   overflow: hidden;
   margin: 0 auto;
-  -webkit-mask-image: url(/images/paint.png);
+  /* -webkit-mask-image: url(/images/paint.png); */
   mask-image: url(/images/paint.png);
-  -webkit-mask-size: auto 100%;
+  /* -webkit-mask-size: auto 100%; */
   mask-size: auto 100%;
-  -webkit-mask-repeat: no-repeat;
+  /* -webkit-mask-repeat: no-repeat; */
   mask-repeat: no-repeat;
 }
 
-.mask .rickyvang {
+.rickyvang {
   width: 100%;
   height: auto;
   object-fit: cover;
   animation: revealImage 2s ease forwards;
-} */
+}
 
-/* .mask::before {
+.mask::before {
   content: "";
   position: absolute;
   top: 0;
@@ -52,7 +52,7 @@ body {
   background: url(/images/paint.png);
   background-size: cover;
   animation: revealImage 3s ease forwards;
-} */
+}
 
 .main-header-icons-list {
   display: flex;
