@@ -21,7 +21,7 @@ body {
   margin-right: auto;
 }
 
-.mask {
+/* .mask {
   width: 350px;
   height: auto;
   position: relative;
@@ -39,8 +39,8 @@ body {
   width: 100%;
   height: auto;
   object-fit: cover;
-  animation: revealImage 2s ease forwards; /* Apply the reveal animation */
-}
+  animation: revealImage 2s ease forwards;
+} */
 
 /* .mask::before {
   content: "";
