@@ -42,7 +42,7 @@ body {
   animation: revealImage 2s ease forwards; /* Apply the reveal animation */
 }
 
-.mask::before {
+/* .mask::before {
   content: "";
   position: absolute;
   top: 0;
@@ -52,7 +52,7 @@ body {
   background: url(/images/paint.png);
   background-size: cover;
   animation: revealImage 3s ease forwards;
-}
+} */
 
 .main-header-icons-list {
   display: flex;
