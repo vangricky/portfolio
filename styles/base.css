@@ -27,8 +27,8 @@ body {
   position: relative;
   overflow: hidden;
   margin: 0 auto;
-  -webkit-mask-image: url("/images/paint.png");
-  mask-image: url("/images/paint.png");
+  -webkit-mask-image: url(/images/paint.png);
+  mask-image: url(/images/paint.png);
   -webkit-mask-size: auto 100%;
   mask-size: auto 100%;
   -webkit-mask-repeat: no-repeat;
