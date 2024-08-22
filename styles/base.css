@@ -21,7 +21,7 @@ body {
   margin-right: auto;
 }
 
-/* .mask {
+.mask {
   width: 350px;
   height: auto;
   position: relative;
@@ -33,7 +33,7 @@ body {
   mask-size: auto 100%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
-} */
+}
 
 .mask .rickyvang {
   width: 100%;
@@ -42,7 +42,7 @@ body {
   animation: revealImage 2s ease forwards; /* Apply the reveal animation */
 }
 
-.mask::before {
+/* .mask::before {
   content: "";
   position: absolute;
   top: 0;
@@ -51,8 +51,8 @@ body {
   height: 100%;
   background: url("/images/paint.png");
   background-size: cover;
-  animation: revealImage 3s ease forwards; /* Apply the same reveal animation to the mask */
-}
+  animation: revealImage 3s ease forwards;
+} */
 
 .main-header-icons-list {
   display: flex;
