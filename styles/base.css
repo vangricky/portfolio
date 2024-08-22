@@ -1,6 +1,6 @@
 /* FONT */
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 /* UNIVERSAL */
 * {
   margin: 0;
@@ -16,8 +16,24 @@ body {
   min-height: 100vh;
 }
 
+h1 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  letter-spacing: -2px;
+  font-size: 35px;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
 a {
   text-decoration: none;
+  text-shadow: 1px 1px 6px #2c2b2b;
+}
+
+span {
+  color: #3fb9ff;
 }
 
 /* BODY */
@@ -79,6 +95,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding-top: 35px;
+  text-align: center;
 }
 
 .toc-h1 {
@@ -88,11 +105,37 @@ a {
   font-size: 35px;
   color: white;
   text-shadow: 1px 1px 6px #2c2b2b;
-  padding: 7px;
+  padding: 5px;
 }
 
 .about-me-section {
   height: 667px;
+  background-color: whitesmoke;
+}
+
+.about-me-section-background-image {
+  height: 400px;
+  width: 500px;
+}
+
+.topic-headers {
+  text-align: center;
+  padding: 45px;
+  color: #ffffff;
+  text-shadow: 1px 1px 6px #2c2b2b;
+  padding-left: 20px;
+}
+
+.about-me-section-para {
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.projects-section {
+  height: 667px;
+  background-color: whitesmoke;
 }
 
 /* KEYFRAMES */
@@ -194,7 +237,12 @@ a {
   animation: popUp 1s forwards 2.05s;
 }
 
-.contact {
+.experience {
   transform: scale(0);
   animation: popUp 1s forwards 2.07s;
+}
+
+.contact {
+  transform: scale(0);
+  animation: popUp 1s forwards 2.09s;
 }
