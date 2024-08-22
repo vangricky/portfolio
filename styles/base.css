@@ -54,7 +54,12 @@ body {
   animation: revealImage 3s ease forwards; /* Apply the same reveal animation to the mask */
 }
 
-/* Keyframes for revealing the image from left to right */
+.main-header-icons-list {
+  display: flex;
+  justify-content: center;
+}
+
+/* KEYFRAMES */
 @keyframes revealImage {
   0% {
     clip-path: inset(0 100% 0 0);
@@ -62,4 +67,30 @@ body {
   100% {
     clip-path: inset(0 0 0 0);
   }
+}
+
+/* ICONS */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #4e5457;
+  color: white;
+}
+
+.fa-envelope {
+  background: #71d811;
+  color: white;
 }
