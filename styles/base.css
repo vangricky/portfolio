@@ -21,14 +21,45 @@ body {
   margin-right: auto;
 }
 
-.mask .rickyvang {
+.mask {
   width: 350px;
-  object-fit: cover;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto; /* Center the mask container horizontally */
+  -webkit-mask-image: url(/images/paint.png);
+  mask-image: url(/images/paint.png);
+  -webkit-mask-size: auto 100%;
+  mask-size: auto 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
 }
 
-.mask {
+.mask .rickyvang {
   width: 100%;
-  -webkit-mask-image: url(/images/paint.png);
-  -webkit-mask-size: auto 100%;
-  -webkit-mask-repeat: no-repeat;
+  height: auto;
+  object-fit: cover;
+  animation: revealImage 2s ease forwards; /* Apply the reveal animation */
+}
+
+.mask::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/paint.png) no-repeat;
+  background-size: cover;
+  animation: revealImage 3s ease forwards; /* Apply the same reveal animation to the mask */
+}
+
+/* Keyframes for revealing the image from left to right */
+@keyframes revealImage {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
 }
