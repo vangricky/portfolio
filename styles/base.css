@@ -69,6 +69,17 @@ body {
   }
 }
 
+@keyframes popUp {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 /* ICONS */
 .fa {
   padding: 10px;
@@ -76,21 +87,45 @@ body {
   width: 20px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 7px;
   border-radius: 50%;
 }
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s, transform 0.5s;
+  animation: popUp 1s forwards 1.3s;
+  font-size: 50px; /* You can change the size as needed */
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .fa-github {
   background: #4e5457;
   color: white;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s, transform 0.5s;
+  animation: popUp 1s forwards 1.5s;
+  font-size: 50px; /* You can change the size as needed */
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .fa-envelope {
   background: #71d811;
   color: white;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s, transform 0.5s;
+  animation: popUp 1s forwards 1.9s;
+  font-size: 50px; /* You can change the size as needed */
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
