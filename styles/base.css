@@ -36,6 +36,10 @@ span {
   color: #3fb9ff;
 }
 
+i {
+  color: #0082fb;
+}
+
 .hyperlink-style {
   text-decoration: none;
   color: black;
@@ -172,6 +176,7 @@ span {
   background: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  letter-spacing: -1px;
 }
 
 .project-chamber-of-commerce:hover {
@@ -179,6 +184,30 @@ span {
   color: whitesmoke;
   cursor: pointer;
   text-shadow: 1px 1px 6px #2c2b2b;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.certificate-links {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: ease 0.2s;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  letter-spacing: -1px;
+}
+
+.certificate-links:hover {
+  background-color: #71d811;
+  color: whitesmoke;
+  cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -291,3 +320,5 @@ span {
   transform: scale(0);
   animation: popUp 1s forwards 2.09s;
 }
+
+/* SLIDER */
