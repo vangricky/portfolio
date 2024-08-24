@@ -129,7 +129,6 @@ span {
   padding: 45px;
   color: #ffffff;
   text-shadow: 1px 1px 6px #2c2b2b;
-  padding-left: 20px;
 }
 
 .about-me-section-para {
@@ -162,8 +161,8 @@ span {
 }
 
 .project-chamber-of-commerce {
-  margin-left: 110px;
-  margin-right: 110px;
+  margin-left: 70px;
+  margin-right: 70px;
   font-family: "Quicksand", sans-serif;
   border-radius: 5px;
   text-align: center;
