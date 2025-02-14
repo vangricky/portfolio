@@ -167,6 +167,7 @@ i {
 .project-chamber-of-commerce {
   margin-left: 70px;
   margin-right: 70px;
+  margin-bottom: 10px;
   font-family: "Quicksand", sans-serif;
   border-radius: 5px;
   text-align: center;
@@ -210,6 +211,60 @@ i {
   cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Resume */
+.rickyvangresume {
+  /* height: 500px; */
+  width: 370px;
+}
+
+/* Contact Form */
+.contact-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.book-api-img {
+  width: 250px;
 }
 
 /* KEYFRAMES */
